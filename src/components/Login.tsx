@@ -21,6 +21,7 @@ const Login = (props: LoginProps) => {
   )
 };
 
+// Container to hold all items on the login-page
 const Container = styled.section`
   overflow: hidden;
   display: flex;
@@ -29,6 +30,7 @@ const Container = styled.section`
   height: 100vh;
 `;
 
+// Div to hold all non-header content ion the login page.
 const Content = styled.div`
   margin-bottom: 10vw;
   width: 100%;
@@ -73,6 +75,7 @@ const CTA = styled.div`
   width: 100%
 `;
 
+// Styled image for top logo.
 const CTALogoOne = styled.img`
   margin-bottom: 12px;
   max-width: 600px;
@@ -81,6 +84,7 @@ const CTALogoOne = styled.img`
   width: 100%;
 `;
 
+// Styled link for sign-up button.
 const SignUp = styled.a`
   font-weight: bold;
   color: #f9f9f9;
@@ -98,6 +102,7 @@ const SignUp = styled.a`
   }
 `;
 
+// Styled paragraph for text.
 const Description = styled.p`
   color: hsla(0, 0%, 95.3%, 1);
   font-size: 11px;
@@ -106,6 +111,7 @@ const Description = styled.p`
   letter-spacing: 1px;
 `;
 
+// Styled image for bottom image.
 const CTALogoTwo = styled.img`
   max-width: 600px;
   margin-bottom: 20px;
